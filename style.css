@@ -1,0 +1,158 @@
+body{
+    background:#f0efef;
+    margin: 0;
+    padding: 0;
+}
+.toparea{
+    background:rgb(181,86,81) ;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+.logoarea{
+    background: rgb(242,195,139);
+    padding: 15px;
+    text-align: center;
+}
+
+@media print{
+    .logoarea{
+        display: none;
+    }
+}
+.logoarea img{
+    width: 100px;
+}
+.logoarea  h1{
+    color:#74353F;
+}
+.logoarea h4{
+    color: black;
+}
+.principal{
+    width: 100%;
+    padding: 10PX;
+    background-color: #fff;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.coursearea{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('libery.jpg');
+    padding: 100px 0;
+    text-align: center;
+    height:800px;
+    
+}
+.principal1 {
+    text-align: center; 
+    
+}
+.principal1 {
+    text-align: center; 
+    
+}
+.principal1 img{
+    color:white;
+}
+.principal1 h3{
+    color: #fff;
+}
+.box{
+    width: 100%;
+    height: 400px;
+    margin: 10px;
+    padding: 10PX;
+    border: solid 1px black;
+    background: #fff;
+    overflow: hidden;
+}
+.box img{
+    width: 100%;
+    border-radius: 100px;
+    transition: all 4s;
+    overflow: hidden;
+}
+.box:hover img{
+    transform: rotate(360deg);
+}
+.nav-link{
+    color: red !important;
+    background: WH;
+}
+.text-justify {
+    text-align: justify !important;
+}
+.syallbus{
+    
+    text-align: center;
+    background-color: #fff;
+    height: 50px;
+    padding: 1%;
+}
+.ACHIEVEMENT{
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.Achievementbox{
+    background-color: #fff;
+    text-align: center;
+
+}
+.Achievementbox img{
+    width:280px;
+    height: 220px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0.7, 0.7, 0.7, 0.7);
+    border: 8px solid white;
+}
+.Achievementbox h5{
+    color: #74353F;
+}
+.Alumniarea{
+    background-image:  url('alumni.jpg');
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0.7, 0.7, 0.7, 0.7);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.al img{
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.lastarea{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('micro_carbon.png');
+    width: 100%;
+    height: 350px;
+}
+.lastarea{
+    background-color:#2F2F2F;
+}
+.lastarea h4{
+    color:white;
+}
+.lastarea ul li{
+    color:#D37F57;
+    list-style: none;
+}
+
+.lastarea ul li{
+    float: left;
+}
+.lastarea ul li:after{
+    content: " / ";
+}
+.lastarea ul li:last-child::after{
+    content: " ";
+}
+.lastarea p,h6{
+    color: #F2C38B;
+}
